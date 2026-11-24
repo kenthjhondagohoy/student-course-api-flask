@@ -1,4 +1,3 @@
-
 from flask import Flask, jsonify
 import os
 
@@ -15,8 +14,8 @@ courses = [
     {
         "id": 2,
         "course_code": "IT 204",
-        "course_name": "Web Development",
-        "instructor": "Dr. Daniel Reyes",
+        "course_name": "Web Systems and Technologies",
+        "instructor": "Prof. Marco Villanueva",
         "units": 3
     },
     {
@@ -24,6 +23,27 @@ courses = [
         "course_code": "IS 310",
         "course_name": "Systems Integration and Architecture",
         "instructor": "Dr. Aisha Rahman",
+        "units": 4
+    },
+    {
+        "id": 4,
+        "course_code": "CS 215",
+        "course_name": "Data Structures and Algorithms",
+        "instructor": "Prof. Daniel Okafor",
+        "units": 3
+    },
+    {
+        "id": 5,
+        "course_code": "IT 330",
+        "course_name": "Database Management Systems",
+        "instructor": "Dr. Sofia Lindgren",
+        "units": 3
+    },
+    {
+        "id": 6,
+        "course_code": "CS 340",
+        "course_name": "Network and Security Fundamentals",
+        "instructor": "Prof. Hiroshi Tanaka",
         "units": 4
     }
 ]
